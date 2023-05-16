@@ -55,6 +55,7 @@ export default function App() {
                     fullWidth
                     onFocus={() => setKeyboardVisible(true)}
                 />
+                {/*If you comment out this line, the keyboard will work*/}
                 {
                     isKeyboardVisible && <Box height="260px" width="100%" />
                 }
